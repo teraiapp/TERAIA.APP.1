@@ -1,0 +1,49 @@
+
+{
+  "regions": [
+    { "code": "01", "name": "Piemonte" },
+    { "code": "02", "name": "Valle d'Aosta" },
+    { "code": "03", "name": "Lombardia" },
+    { "code": "04", "name": "Trentino-Alto Adige" },
+    { "code": "05", "name": "Veneto" },
+    { "code": "06", "name": "Friuli-Venezia Giulia" },
+    { "code": "07", "name": "Liguria" },
+    { "code": "08", "name": "Emilia-Romagna" },
+    { "code": "09", "name": "Toscana" },
+    { "code": "10", "name": "Umbria" },
+    { "code": "11", "name": "Marche" },
+    { "code": "12", "name": "Lazio" },
+    { "code": "13", "name": "Abruzzo" },
+    { "code": "14", "name": "Molise" },
+    { "code": "15", "name": "Campania" },
+    { "code": "16", "name": "Puglia" },
+    { "code": "17", "name": "Basilicata" },
+    { "code": "18", "name": "Calabria" },
+    { "code": "19", "name": "Sicilia" },
+    { "code": "20", "name": "Sardegna" }
+  ],
+  "provinces": [
+    { "code": "TO", "name": "Torino", "regionCode": "01" },
+    { "code": "MI", "name": "Milano", "regionCode": "03" },
+    { "code": "VR", "name": "Verona", "regionCode": "05" },
+    { "code": "FI", "name": "Firenze", "regionCode": "09" },
+    { "code": "RM", "name": "Roma", "regionCode": "12" },
+    { "code": "BA", "name": "Bari", "regionCode": "16" },
+    { "code": "FG", "name": "Foggia", "regionCode": "16" },
+    { "code": "PA", "name": "Palermo", "regionCode": "19" },
+    { "code": "CT", "name": "Catania", "regionCode": "19" }
+  ],
+  "communes": [
+    { "code": "001", "name": "Torino", "provinceCode": "TO", "regionCode": "01" },
+    { "code": "002", "name": "Milano", "provinceCode": "MI", "regionCode": "03" },
+    { "code": "003", "name": "Verona", "provinceCode": "VR", "regionCode": "05" },
+    { "code": "004", "name": "Firenze", "provinceCode": "FI", "regionCode": "09" },
+    { "code": "005", "name": "Roma", "provinceCode": "RM", "regionCode": "12" },
+    { "code": "006", "name": "Bari", "provinceCode": "BA", "regionCode": "16" },
+    { "code": "007", "name": "Altamura", "provinceCode": "BA", "regionCode": "16" },
+    { "code": "008", "name": "Foggia", "provinceCode": "FG", "regionCode": "16" },
+    { "code": "009", "name": "Cerignola", "provinceCode": "FG", "regionCode": "16" },
+    { "code": "010", "name": "Palermo", "provinceCode": "PA", "regionCode": "19" },
+    { "code": "011", "name": "Catania", "provinceCode": "CT", "regionCode": "19" }
+  ]
+}
