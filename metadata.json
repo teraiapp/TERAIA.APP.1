@@ -1,0 +1,7 @@
+{
+  "name": "TeraIA",
+  "description": "A dynamic farm management application for hybrid agricultural businesses, featuring role-based access and modular interfaces for production, livestock, economy, and AI-driven decisions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

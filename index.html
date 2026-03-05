@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeraIA - The Operating System for Modern Agriculture</title>
+    <meta name="description" content="Global platform for precision farming, livestock management, and AI-driven agronomic intelligence.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#22c55e',
+              'primary-dark': '#16a34a',
+              'secondary': '#f97316',
+              'background': '#f1f5f9',
+              'surface': '#ffffff',
+              'text-primary': '#1e293b',
+              'text-secondary': '#64748b',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.2/",
+    "react": "https://esm.sh/react@^19.2.2",
+    "react/": "https://esm.sh/react@^19.2.2/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-text-primary">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
